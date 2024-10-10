@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<minecraftItems lang="es">
+
+    <item id="1" crafteable="true" enchantable="true" destruible="true" desgastePorUso="5%">
+        <name> Espada </name>
+        <type> Arma </type>
+        <rarity> Diamante </rarity>
+        <damage> 7 </damage>
+        <description> Es el arma principal para luchar que hace mucho daño y es rápida </description>
+        <materials>
+            <material> 2 diamantes </material>
+            <material> 1 palo </material>
+        </materials>
+        <enchantments>
+            <enchantment> Golpeo 5 </enchantment>
+            <enchantment> Empuje 2 </enchantment>
+            <enchantment> Aspecto ígneo 2 </enchantment>
+            <enchantment> Botín 3 </enchantment>
+            <enchantment> Filo arrasador 3 </enchantment>
+            <enchantment> Reparación </enchantment>
+            <enchantment> Irrompibilidad 3 </enchantment>
+            <enchantment> Maldición de desaparición </enchantment>
+        </enchantments>
+    </item>
+
+    <item id="2" crafteable="true" enchantable="true" destruible="true" desgastePorUso="3%">
+        <name> Pico </name>
+        <type> Herramienta </type>
+        <rarity> Diamante </rarity>
+        <damage> 4 </damage>
+        <description> El pico es una de las herramientas más usadas en el juego para excavar todos los minerales y algunos otros tipos de bloques. </description>
+        <materials>
+            <material> 3 diamantes </material>
+            <material> 2 palos </material>
+        </materials>
+        <enchantments>
+            <enchantment> Eficiencia 5 </enchantment>
+            <enchantment> Fortuna 3 </enchantment>
+            <enchantment> Toque de seda </enchantment>
+            <enchantment> Irrompibilidad 3 </enchantment>
+            <enchantment> Reparación </enchantment>
+            <enchantment> Maldición de desaparición </enchantment>
+        </enchantments>
+    </item>
+
+    <item id="3" crafteable="true" enchantable="true" destruible="true" desgastePorUso="6%">
+        <name> Hacha </name>
+        <type> Arma y Herramienta </type>
+        <rarity> Diamante </rarity>
+        <damage> 6 </damage>
+        <description> Es tanto arma como herramienta ya que sirve para talar árboles y para luchar (aunque es muy lenta) </description>
+        <materials>
+            <material> 3 diamantes </material>
+            <material> 2 palos </material>
+        </materials>
+        <enchantments>
+            <enchantment> Eficiencia 5 </enchantment>
+            <enchantment> Fortuna 3 </enchantment>
+            <enchantment> Toque de seda </enchantment>
+            <enchantment> Irrompibilidad 3 </enchantment>
+            <enchantment> Reparación </enchantment>
+            <enchantment> Maldición de desaparición </enchantment>
+        </enchantments>
+    </item>
+
+</minecraftItems>

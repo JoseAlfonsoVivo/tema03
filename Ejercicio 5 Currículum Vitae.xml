@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cv lang="es">
+
+    <!-- Información personal -->
+    <informacionPersonal>
+        <nombre> Jose Alfonso Vivo Vivo </nombre>
+        <contacto>
+            <email> josealfonsovivo@gmail.com </email>
+            <telefono> 608 340 261 </telefono>
+            <direccion> Dénia, 03700 </direccion>
+        </contacto>
+        <sobreMi>
+            <descripcion>
+                Tengo 19 años. Actualmente me encuentro buscando oportunidades para desarrollarme en el mundo laboral. 
+                Lleno de energía y ambición, dispuesto a aprender y perfeccionar mis conocimientos.
+                Me considero una persona que se sabe organizar y trabaja bien en equipo. 
+                En mis tiempos libres suelo practicar deporte, especialmente rugby. 
+                Me considero sociable, extrovertido y respetuoso.
+            </descripcion>
+        </sobreMi>
+    </informacionPersonal>
+
+    <!-- Idiomas -->
+    <idiomas>
+        <idioma>
+            <nombre> Español </nombre>
+            <nivel> Nativo </nivel>
+        </idioma>
+        <idioma>
+            <nombre> Inglés </nombre>
+            <nivel> B1 </nivel>
+        </idioma>
+        <idioma>
+            <nombre> Valenciano </nombre>
+            <nivel> Nativo </nivel>
+        </idioma>
+    </idiomas>
+
+    <!-- Experiencia laboral -->
+    <experiencia>
+        <trabajo>
+            <titulo> Diseño Web (Prácticas) </titulo>
+            <duracion> Marzo - Mayo 2023 </duracion>
+            <descripcion> Ayudante de informático encargado de la página web de la empresa "Ennova Soluciones Renovables". </descripcion>
+        </trabajo>
+        <trabajo>
+            <titulo> Albañilería </titulo>
+            <duracion> Veranos de 2020, 2021 y 2022 </duracion>
+            <descripcion> Ayudante de mi padre en su empresa de construcción como albañil. </descripcion>
+        </trabajo>
+        <trabajo>
+            <titulo> Mozo de almacén </titulo>
+            <duracion> Junio - Agosto 2023 </duracion>
+            <descripcion> Ennova Soluciones Renovables. </descripcion>
+        </trabajo>
+    </experiencia>
+
+    <!-- Estudios -->
+    <estudios>
+        <estudio>
+            <titulo> ESO </titulo>
+            <centro> IES Historiador Chabás </centro>
+            <fecha> 2020 </fecha>
+            <estado> Con título </estado>
+        </estudio>
+        <estudio>
+            <titulo> Grado medio de Sistemas Microinformáticos y Redes </titulo>
+            <centro> IES Historiador Chabás </centro>
+            <fecha> 2023 </fecha>
+            <estado> Con título </estado>
+        </estudio>
+        <estudio>
+            <titulo> 1º año de Grado Superior en Desarrollo de Aplicaciones Web </titulo>
+            <centro> IES La Mar </centro>
+            <fecha> 2024 </fecha>
+            <estado> Sin título </estado>
+        </estudio>
+    </estudios>
+
+    <!-- Habilidades -->
+    <habilidades>
+        <tecnicas>
+            <habilidad>
+                Gracias al grado medio y a mi tiempo libre me sé mover en aplicaciones ofimáticas y en lenguajes de programación orientados a páginas web (HTML, CSS...), aunque estoy aprendiendo.
+            </habilidad>
+            <habilidad>
+                Conocimientos en sistemas operativos (Windows, Linux...).
+            </habilidad>
+        </tecnicas>
+        <interpersonales>
+            <habilidad> Se me da bien el trabajo en equipo. </habilidad>
+            <habilidad> Me adapto rápido.</habilidad>
+            <habilidad> Se me da bien tomar decisiones. </habilidad>
+        </interpersonales>
+    </habilidades>
+
+</cv>

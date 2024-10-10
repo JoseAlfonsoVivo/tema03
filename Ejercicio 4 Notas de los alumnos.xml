@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<notas lang="es">
+
+    <alumno>
+        <nombre> Jose Alfonso </nombre>
+        <apellidos> Vivo Vivo </apellidos>
+        <nia> 12345678 </nia>
+    </alumno>
+
+    <modulos>
+        <modulo>
+            <nombre> Inglés profesional </nombre>
+            <nota> 8.5 </nota>
+        </modulo>
+
+        <modulo>
+            <nombre> Fundamentos de Hardware </nombre>
+            <nota> 9.0 </nota>
+        </modulo>
+
+        <modulo>
+            <nombre> Gestión de Bases de Datos </nombre>
+            <nota> 7.5 </nota>
+        </modulo>
+
+        <modulo>
+            <nombre> Implantación de Sistemas Operativos </nombre>
+            <nota> 6.5 </nota>
+        </modulo>
+
+        <modulo>
+            <nombre> Lenguajes de marcas </nombre>
+            <nota> 8.0 </nota>
+        </modulo>
+
+        <modulo>
+            <nombre> Planificación y Administración de Redes </nombre>
+            <nota> 5.0 </nota>
+        </modulo>
+
+    </modulos>
+
+</notas>

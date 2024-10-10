@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<minecraftItems lang="es">
+
+    <item>
+        <id> 1 </id>
+        <name> Espada </name>
+        <type> Arma </type>
+        <rarity> Diamante </rarity>
+        <damage> 7 </damage>
+        <critical_damage> 14 </critical_damage>
+        <description> Es el arma principar para luchar que hace mucho daño y es rapida </description>
+    </item>
+
+    <item>
+        <id> 2 </id>
+        <name> Arco </name>
+        <type> Arma </type>
+        <rarity> --- </rarity>
+        <damage> 2 </damage>
+        <critical_damage> 4 </critical_damage>
+        <description> Es un arma a distancia </description>
+    </item>
+
+    <item>
+        <id> 3 </id>
+        <name> Tridente </name>
+        <type> Arma </type>
+        <rarity> --- </rarity>
+        <damage> 9 </damage>
+        <critical_damage> 13.5 </critical_damage>
+        <description> Es un arma que se puede lanzar al enemigo y tambien se puede utilizar para lanzar rayos o para tu propia mobilidad, segun los encantamientos que le pongas </description>
+    </item>
+
+    <item>
+        <id> 4 </id>
+        <name> Ballesta </name>
+        <type> Arma </type>
+        <rarity> --- </rarity>
+        <damage> 7 </damage>
+        <critical_damage> 9 </critical_damage>
+        <description> Es un arma a distancia como el arco pero hace mas daño y es mas lenta </description>
+    </item>
+
+    <item>
+        <id> 5 </id>
+        <name> Hacha </name>
+        <type> Arma </type>
+        <rarity> Diamante </rarity>
+        <damage> 5 </damage>
+        <critical_damage> 7 </critical_damage>
+        <description> Es tanto arma como herramienta ya que sirve para talar arboles y para luchar (aunque es muy lenta) </description>
+    </item>
+
+</minecraftItems>

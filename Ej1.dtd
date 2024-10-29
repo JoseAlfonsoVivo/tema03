@@ -1,0 +1,16 @@
+<!ELEMENT minecraftItems (item+)>
+<!ELEMENT item (name, damage?, critical_damage?, description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT damage (#PCDATA)>
+<!ELEMENT critical_damage (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ATTLIST minecraftItems
+    lang CDATA #REQUIRED>
+
+<!ATTLIST item
+    id ID #REQUIRED
+    type (Arma|Herramienta|Bloque) #REQUIRED
+    rarity (común|raro|épico) #REQUIRED>
+
+    

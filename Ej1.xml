@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE minecraftItems SYSTEM "Ej1.dtd">
+
+<minecraftItems lang="es">
+    <item id="i1" type="Arma" rarity="épico">
+        <name>Espada</name>
+        <damage>7</damage>
+        <critical_damage>14</critical_damage>
+        <description>Es el arma principal para luchar que hace mucho daño y es rápida.</description>
+    </item>
+
+    <item id="i2" type="Arma" rarity="común">
+        <name>Arco</name>
+        <damage>2</damage>
+        <critical_damage>4</critical_damage>
+        <description>Es un arma a distancia.</description>
+    </item>
+
+    <item id="i3" type="Arma" rarity="raro">
+        <name>Tridente</name>
+        <damage>9</damage>
+        <critical_damage>13.5</critical_damage>
+        <description>Se puede lanzar al enemigo y permite lanzar rayos o mejorar la movilidad según los encantamientos.</description>
+    </item>
+
+    <item id="i4" type="Arma" rarity="común">
+        <name>Ballesta</name>
+        <damage>7</damage>
+        <critical_damage>9</critical_damage>
+        <description>Es un arma a distancia como el arco, pero hace más daño y es más lenta.</description>
+    </item>
+
+    <item id="i5" type="Herramienta" rarity="épico">
+        <name>Hacha</name>
+        <damage>5</damage>
+        <critical_damage>7</critical_damage>
+        <description>Funciona como herramienta para talar árboles y como arma aunque es muy lenta.</description>
+    </item>
+</minecraftItems>

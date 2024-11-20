@@ -1,0 +1,10 @@
+<!ELEMENT escena (figuras)>
+    <!ELEMENT figuras (figura+)>
+        <!ELEMENT figura (altura?, ancho?, radio?, posición)>
+            <!ATTLIST figura tipo (rectangulo | circunferencia | linea) #REQUIRED>
+        <!ELEMENT altura (#PCDATA)>
+        <!ELEMENT ancho (#PCDATA)>
+        <!ELEMENT radio (#PCDATA)>
+        <!ELEMENT posición (x, y)>
+            <!ELEMENT x (#PCDATA)>
+            <!ELEMENT y (#PCDATA)>

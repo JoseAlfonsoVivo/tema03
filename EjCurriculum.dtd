@@ -1,0 +1,37 @@
+<!ELEMENT cv (informacionPersonal, idiomas, experiencia, estudios, habilidades)>
+    
+    <!ELEMENT informacionPersonal (nombre, contacto, sobreMi)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT contacto (email, telefono, direccion)>
+            <!ELEMENT email (#PCDATA)>
+            <!ELEMENT telefono (#PCDATA)>
+            <!ELEMENT direccion (#PCDATA)>
+        <!ELEMENT sobreMi (descripcionMi)>
+            <!ELEMENT descripcionMi (#PCDATA)>
+
+    <!ELEMENT idiomas (idioma*)>
+        <!ELEMENT idioma EMPTY>
+        <!ATTLIST idioma 
+            name CDATA #REQUIRED
+            nivel (nativo | A1 | A2 | B1 | B2 | C1 | C2) #REQUIRED> 
+
+    <!ELEMENT experiencia (trabajo*)>
+        <!ELEMENT trabajo (duracion, descripcionExp)>
+            <!ELEMENT duracion (#PCDATA)>
+            <!ELEMENT descripcionExp (#PCDATA)>
+            <!ATTLIST trabajo 
+                tipo CDATA #REQUIRED>
+
+    <!ELEMENT estudios (estudio*)>
+        <!ELEMENT estudio (centro, fecha, estado)>
+            <!ELEMENT centro (#PCDATA)>
+            <!ELEMENT fecha (#PCDATA)>
+            <!ELEMENT estado (#PCDATA)>
+            <!ATTLIST estudio 
+                titulo CDATA #REQUIRED>
+            
+    <!ELEMENT habilidades (tecnicas, interpersonales)>
+        <!ELEMENT tecnicas (habilidad*)>
+        <!ELEMENT interpersonales (habilidad*)>
+            <!ELEMENT habilidad (#PCDATA)>
+        

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv SYSTEM "EjCurriculum.dtd">
+<cv>
+
+    <!-- Información personal -->
+    <informacionPersonal>
+        <nombre> Jose Alfonso Vivo Vivo </nombre>
+        <contacto>
+            <email> josealfonsovivo@gmail.com </email>
+            <telefono> 608 340 261 </telefono>
+            <direccion> Dénia, 03700 </direccion>
+        </contacto>
+        <sobreMi>
+            <descripcionMi>
+                Tengo 19 años. Actualmente me encuentro buscando oportunidades para desarrollarme en el mundo laboral. 
+                Lleno de energía y ambición, dispuesto a aprender y perfeccionar mis conocimientos.
+                Me considero una persona que se sabe organizar y trabaja bien en equipo. 
+                En mis tiempos libres suelo practicar deporte, especialmente rugby. 
+                Me considero sociable, extrovertido y respetuoso.
+            </descripcionMi>
+        </sobreMi>
+    </informacionPersonal>
+
+    <!-- Idiomas -->
+    <idiomas>
+        <idioma name="Español" nivel="nativo"/>
+        <idioma name="Inglés" nivel="B1"/>
+        <idioma name="Valenciano" nivel="nativo"/>
+    </idiomas>
+
+    <!-- Experiencia laboral -->
+    <experiencia>
+        <trabajo tipo="Diseño Web (Prácticas)">
+            <duracion> Marzo - Mayo 2023 </duracion>
+            <descripcionExp> Ayudante de informático encargado de la página web de la empresa "Ennova Soluciones Renovables". </descripcionExp>
+        </trabajo>
+        <trabajo tipo="Albañilería">
+            <duracion> Veranos de 2020, 2021 y 2022 </duracion>
+            <descripcionExp> Ayudante de mi padre en su empresa de construcción como albañil. </descripcionExp>
+        </trabajo>
+        <trabajo tipo="Mozo de almacén">
+            <duracion> Junio - Agosto 2023 </duracion>
+            <descripcionExp> Ennova Soluciones Renovables. </descripcionExp>
+        </trabajo>
+    </experiencia>
+
+    <!-- Estudios -->
+    <estudios>
+        <estudio titulo="ESO">
+            <centro> IES Historiador Chabás </centro>
+            <fecha> 2020 </fecha>
+            <estado> Con título </estado>
+        </estudio>
+        <estudio titulo="Grado medio de Sistemas Microinformáticos y Redes">
+            <centro> IES Historiador Chabás </centro>
+            <fecha> 2023 </fecha>
+            <estado> Con título </estado>
+        </estudio>
+        <estudio titulo="1º año de Grado Superior en Desarrollo de Aplicaciones Web">
+            <centro> IES La Mar </centro>
+            <fecha> 2024 </fecha>
+            <estado> Sin título </estado>
+        </estudio>
+    </estudios>
+
+    <!-- Habilidades -->
+    <habilidades>
+        <tecnicas>
+            <habilidad>
+                Gracias al grado medio y a mi tiempo libre me sé mover en aplicaciones ofimáticas y en lenguajes de programación orientados a páginas web (HTML, CSS...), aunque estoy aprendiendo.
+            </habilidad>
+            <habilidad>
+                Conocimientos en sistemas operativos (Windows, Linux...).
+            </habilidad>
+        </tecnicas>
+        <interpersonales>
+            <habilidad> Se me da bien el trabajo en equipo. </habilidad>
+            <habilidad> Me adapto rápido.</habilidad>
+            <habilidad> Se me da bien tomar decisiones. </habilidad>
+        </interpersonales>
+    </habilidades>
+
+</cv>

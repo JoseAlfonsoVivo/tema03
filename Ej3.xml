@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE escena SYSTEM "Ej3.dtd">
+<escena>  
+    <figuras>
+        <figura tipo="rectangulo">
+            <altura> 10 </altura>
+            <ancho> 20 </ancho>
+            <posición>
+                <x>100</x>
+                <y>150</y>
+            </posición>
+        </figura>
+       <figura tipo="circunferencia">
+            <radio> 3 </radio>
+            <posición>
+                <x>200</x>
+                <y>250</y>
+            </posición>
+       </figura>
+       <figura tipo="linea">
+            <posición>
+                <x>300</x>
+                <y>350</y>
+            </posición>
+       </figura>
+    </figuras>
+</escena>

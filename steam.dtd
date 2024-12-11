@@ -1,0 +1,65 @@
+<!ELEMENT steam (juegos, usuarios, noticias, contacto_soporte)>
+
+<!-- Definición de juegos -->
+<!ELEMENT juegos (juego+)>
+<!ELEMENT juego (logros)>
+<!ATTLIST juego 
+    id ID #REQUIRED 
+    nombre CDATA #REQUIRED 
+    precio CDATA #REQUIRED 
+    descuento (si | no) #REQUIRED 
+    porcentaje_descuento CDATA #IMPLIED>
+
+<!-- Definición de logros -->
+<!ELEMENT logros (logro+)>
+<!ELEMENT logro EMPTY>
+<!ATTLIST logro 
+    id ID #REQUIRED 
+    nombre CDATA #REQUIRED 
+    descripcion CDATA #REQUIRED 
+    puntos CDATA #IMPLIED>
+
+<!-- Definición de usuarios -->
+<!ELEMENT usuarios (usuario+)>
+<!ELEMENT usuario (biblioteca)>
+<!ATTLIST usuario 
+    id ID #REQUIRED 
+    nombre CDATA #REQUIRED 
+    pais CDATA #REQUIRED 
+    amigos_ref IDREFS #IMPLIED 
+    amigos_totales CDATA #REQUIRED 
+    nivel_cuenta CDATA #REQUIRED>
+
+<!ELEMENT biblioteca EMPTY>
+<!ATTLIST biblioteca 
+    juegos_ref IDREFS #REQUIRED 
+    logros_ref IDREFS #IMPLIED 
+    juegos_totales CDATA #REQUIRED>
+
+<!-- Definición de noticias -->
+<!ELEMENT noticias (noticia+)>
+<!ELEMENT noticia (contenido)>
+<!ATTLIST noticia 
+    id ID #REQUIRED 
+    titulo CDATA #REQUIRED 
+    fecha_publicacion CDATA #REQUIRED 
+    autor CDATA #REQUIRED 
+    tema CDATA #REQUIRED>
+
+<!ELEMENT contenido (#PCDATA)>
+
+<!-- Definición de contacto de soporte -->
+<!ELEMENT contacto_soporte (ticket+)>
+<!ATTLIST contacto_soporte 
+    correo_electronico CDATA #REQUIRED 
+    telefono CDATA #REQUIRED>
+
+<!-- Definición de tickets -->
+<!ELEMENT ticket EMPTY>
+<!ATTLIST ticket 
+    id ID #REQUIRED 
+    usuario_ref IDREF #REQUIRED 
+    asunto CDATA #REQUIRED 
+    fecha_creado CDATA #REQUIRED 
+    estado (Pendiente | Resuelto) #REQUIRED 
+    prioridad (Alta | Media | Baja) #REQUIRED>

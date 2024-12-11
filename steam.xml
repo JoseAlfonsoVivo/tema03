@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE steam SYSTEM "steam.dtd">
+
+<steam>
+    <juegos>
+        <!--Tenemos un total de 15 juegos -->
+        <juego id="J001" nombre="Fortnite" precio="19.99" descuento="si" porcentaje_descuento="30%">
+            <logros>
+                <logro id="L001" nombre="Constructor Experto" descripcion="Construye 500 estructuras en el modo Battle Royale." puntos="150"/>
+                <logro id="L002" nombre="Victoria Magistral" descripcion="Gana 10 partidas en modo solitario." puntos="200"/>
+            </logros>
+        </juego>
+
+        <juego id="J002" nombre="Call Of Duty Black ops 6" precio="59.99" descuento="no">
+            <logros>
+                <logro id="L003" nombre="Soldado de Élite" descripcion="Alcanza el nivel 50 en multijugador."/>
+                <logro id="L004" nombre="Campeón de Zombis" descripcion="Sobrevive 30 rondas en el modo Zombis."/>
+            </logros>
+        </juego>
+
+        <juego id="J003" nombre="Counter Strike 2" precio="24.99" descuento="no">
+            <logros>
+                <logro id="L005" nombre="Tirador Experto" descripcion="Consigue 100 bajas con francotirador."/>
+                <logro id="L006" nombre="Desactivador Rápido" descripcion="Desactiva 20 bombas en modo competitivo."/>
+            </logros>
+        </juego>
+
+        <juego id="J004" nombre="Half Life Alyx" precio="9.99" descuento="si" porcentaje_descuento="5%">
+            <logros>
+                <logro id="L007" nombre="Explorador de Ciudad 17" descripcion="Completa el primer capítulo sin morir."/>
+                <logro id="L008" nombre="Cazador de Antilions" descripcion="Derrota a 50 Antilions."/>
+            </logros>
+        </juego>
+
+        <juego id="J005" nombre="Resident Evil 7 Biohazard" precio="4.99" descuento="si" porcentaje_descuento="30%">
+            <logros>
+                <logro id="L009" nombre="Superviviente Definitivo" descripcion="Completa el juego en modo 'Pesadilla'."/>
+                <logro id="L010" nombre="Maestro de Puzzles" descripcion="Resuelve todos los acertijos sin consultar guías."/>
+            </logros>
+        </juego>
+
+        <juego id="J006" nombre="Celeste" precio="29.99" descuento="no">
+            <logros>
+                <logro id="L011" nombre="Escalador Valiente" descripcion="Completa el juego sin utilizar asistencias."/>
+                <logro id="L012" nombre="Recoleccionista" descripcion="Recoge todas las fresas ocultas."/>
+            </logros>
+        </juego>
+
+        <juego id="J007" nombre="Gris" precio="9.99" descuento="si" porcentaje_descuento="90%">
+            <logros>
+                <logro id="L013" nombre="Descubridor de Colores" descripcion="Desbloquea todos los colores del mundo."/>
+                <logro id="L014" nombre="Viaje Completo" descripcion="Completa el juego al 100%."/>
+            </logros>
+        </juego>
+
+        <juego id="J008" nombre="Neva" precio="14.99" descuento="no">
+            <logros>
+                <logro id="L015" nombre="Protector del Bosque" descripcion="Salva a todos los animales de las criaturas oscuras."/>
+                <logro id="L016" nombre="Guía Espiritual" descripcion="Completa el juego sin morir."/>
+            </logros>
+        </juego>
+
+        <juego id="J009" nombre="Hollow Knight" precio="20.99" descuento="si" porcentaje_descuento="25%">
+            <logros>
+                <logro id="L017" nombre="Maestro de la Espada" descripcion="Derrota a 10 jefes sin recibir daño."/>
+                <logro id="L018" nombre="Explorador del Vacío" descripcion="Explora todas las áreas ocultas del mapa."/>
+            </logros>
+        </juego>
+
+        <juego id="J010" nombre="Age of Empires IV" precio="3.99" descuento="si" porcentaje_descuento="40%">
+            <logros>
+                <logro id="L019" nombre="Conquistador" descripcion="Gana 10 partidas en el modo competitivo."/>
+                <logro id="L020" nombre="Estratega Supremo" descripcion="Completa todas las campañas en dificultad máxima."/>
+            </logros>
+        </juego>
+
+        <juego id="J011" nombre="Counter-Strike: Source" precio="2.99" descuento="no">
+            <logros>
+                <logro id="L021" nombre="Veterano del Equipo" descripcion="Participa en 100 partidas competitivas."/>
+                <logro id="L022" nombre="Desarmador Experto" descripcion="Desarma 50 bombas sin morir."/>
+            </logros>
+        </juego>
+
+        <juego id="J012" nombre="The Witcher 3: Wild Hunt" precio="39.99" descuento="no">
+            <logros>
+                <logro id="L023" nombre="Cazador de Monstruos" descripcion="Derrota a todos los monstruos legendarios."/>
+                <logro id="L024" nombre="Maestro de Pociones" descripcion="Desbloquea todas las recetas de alquimia."/>
+            </logros>
+        </juego>
+
+        <juego id="J013" nombre="Baldur's Gate 3" precio="79.99" descuento="no">
+            <logros>
+                <logro id="L025" nombre="Héroe Épico" descripcion="Completa todas las misiones principales."/>
+                <logro id="L026" nombre="Explorador Arcano" descripcion="Descubre todos los secretos mágicos del juego."/>
+            </logros>
+        </juego>
+
+        <juego id="J014" nombre="Cyberpunk 2077" precio="49.99" descuento="si" porcentaje_descuento="48%">
+            <logros>
+                <logro id="L027" nombre="Mercenario Supremo" descripcion="Completa todas las misiones secundarias."/>
+                <logro id="L028" nombre="Experto en Ciberimplantes" descripcion="Desbloquea todos los ciberimplantes disponibles."/>
+            </logros>
+        </juego>
+
+        <juego id="J015" nombre="Apex Legends" precio="7.99" descuento="no">
+            <logros>
+                <logro id="L029" nombre="Leyenda Invencible" descripcion="Gana 50 partidas en modo Battle Royale."/>
+                <logro id="L030" nombre="Campeón de Temporada" descripcion="Alcanza el rango máximo en una temporada clasificatoria."/>
+            </logros>
+        </juego>
+    </juegos>
+
+    <usuarios>
+         <!--Usuario 1-->
+        <usuario id="U1" nombre="JoseGamerxxx32" pais="Espana" amigos_ref="U2 U3" amigos_totales="2" nivel_cuenta="15">
+            <biblioteca juegos_ref="J010 J015" logros_ref="L019 L020 L029 L030" juegos_totales="2"/>
+        </usuario>
+
+        <!--Usuario 2-->
+        <usuario id="U2" nombre="Elpantunfliyi123" pais="Senegal" amigos_ref="U1 U4" amigos_totales="2" nivel_cuenta="56">
+            <biblioteca juegos_ref="J011 J014 J002 J009 J013 J012" logros_ref="L021 L022 L027 L028 L003 L004 L017 L018 L025 L026 L023 L024" juegos_totales="6"/>
+        </usuario>
+
+        <!--Usuario 3-->
+        <usuario id="U3" nombre="Dylaneitor3000" pais="Colombia" amigos_ref="U1 U2 U4" amigos_totales="3" nivel_cuenta="3">
+            <biblioteca juegos_ref="J005 J014 J007" logros_ref="L009 L010 L027 L028 L013 L014" juegos_totales="3"/>
+        </usuario>
+        
+        <!--Usuario 4-->
+        <usuario id="U4" nombre="ElfaliyoDelBlok" pais="Nigeria" amigos_ref="U1 U2 U3" amigos_totales="3" nivel_cuenta="8">
+            <biblioteca juegos_ref="J006 J001 J004 J008" logros_ref="L011 L012 L001 L002 L007 L008 L015 L016" juegos_totales="4"/>
+        </usuario>
+    </usuarios>
+
+    <noticias>
+        <!-- Próximos Juegos en Rebajas -->
+        <noticia id="N1" titulo="Rebajas de Invierno 2024: Grandes Descuentos en Juegos Populares" fecha_publicacion="2024-11-20" autor="AdminSteam" tema="Rebajas, Descuentos, Ofertas de Invierno">
+            <contenido>Las esperadas Rebajas de Invierno comienzan el 15 de diciembre de 2024. Títulos como "Cyberpunk 2077" y "Hollow Knight" tendrán descuentos de hasta el 75%.</contenido>
+        </noticia>
+
+        <noticia id="N2" titulo="Semana de Juegos Indie: Descuentos Exclusivos" fecha_publicacion="2024-10-05" autor="NoticiasIndie" tema="Juegos Indie, Rebajas, Descuentos Exclusivos">
+            <contenido>Del 10 al 17 de octubre de 2024, Steam ofrecerá descuentos exclusivos en juegos indie como "Celeste" y "Gris". Aprovecha para descubrir joyas ocultas.</contenido>
+        </noticia>
+
+        <!-- Próximos DLC -->
+        <noticia id="N3" titulo="Próximo DLC de Elden Ring - 'Shadow of the Erdtree'" fecha_publicacion="2024-12-01" autor="FromSoftwareNews" tema="Elden Ring, DLC, Expansión">
+            <contenido>FromSoftware anunció el lanzamiento del DLC "Shadow of the Erdtree" para Elden Ring, el cual traerá nuevas áreas, jefes y armas. Se espera su lanzamiento en abril de 2025.</contenido>
+        </noticia>
+
+        <noticia id="N4" titulo="Nuevo DLC de Age of Empires IV: 'Civilizaciones Olvidadas'" fecha_publicacion="2024-12-05" autor="AgeNews" tema="Age of Empires IV, Expansión, Estrategia">
+            <contenido>La expansión "Civilizaciones Olvidadas" llegará el 20 de febrero de 2025 para Age of Empires IV, añadiendo tres nuevas civilizaciones y campañas históricas.</contenido>
+        </noticia>
+
+        <!-- Nuevas Promociones -->
+        <noticia id="N5" titulo="Steam anuncia una nueva promoción: 'Semana de Jugadores Retro'" fecha_publicacion="2024-11-30" autor="PromosSteam" tema="Promociones, Retro, Descuentos">
+            <contenido>Desde el 5 al 12 de diciembre, Steam ofrecerá una promoción especial en juegos clásicos como "Half-Life Alyx" y "Counter-Strike: Source" con descuentos de hasta el 80%.</contenido>
+        </noticia>
+
+        <noticia id="N6" titulo="Evento de Fin de Año: Regalos y Recompensas" fecha_publicacion="2024-12-15" autor="SteamEvents" tema="Eventos, Fin de Año, Recompensas">
+            <contenido>Durante la última semana de diciembre, Steam recompensará a los jugadores activos con puntos de recompensa adicionales, ofertas flash y contenido exclusivo.</contenido>
+        </noticia>
+    </noticias>
+
+    <!--En caso de algun problema puedes ponerte en contacto con el soporte-->
+    <contacto_soporte correo_electronico="contactosteam@gmail.com" telefono="659562147">
+        <ticket id="T1" usuario_ref="U1" asunto="Error de compra" fecha_creado="2024-12-01" estado="Pendiente" prioridad="Alta"/>
+        <ticket id="T2" usuario_ref="U2" asunto="Fallo en la descarga" fecha_creado="2024-11-28" estado="Resuelto" prioridad="Media"/>
+        <ticket id="T3" usuario_ref="U3" asunto="Problemas con la cartera" fecha_creado="2024-09-14" estado="Resuelto" prioridad="Baja"/>
+    </contacto_soporte>
+
+</steam>
